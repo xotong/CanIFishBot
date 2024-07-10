@@ -1,2 +1,4 @@
-fastapi>=0.111.0
+pyTelegramBotAPI>=4.21.0
 requests>=2.23.3
+python-dotenv>=1.0.1
+

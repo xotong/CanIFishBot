@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: CanIFishBot
+spec:
+   containers:
+   - name: canifishbot
+     image: xotong/canifishbot:v1.1

@@ -12,4 +12,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 COPY ./app /code/app
 
-CMD ["fastapi", "run", "app/main.py", "--port", "8123"]
+CMD ["python", "app/app.py"]
